@@ -49,3 +49,4 @@ if __name__ == "__main__":
     server_thread.start()
     server_thread.join()
     server_socket.close()
+    print("server closed")
